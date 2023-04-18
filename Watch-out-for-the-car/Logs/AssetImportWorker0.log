@@ -15,7 +15,7 @@ C:/Users/조성택/Documents/GitHub/Watch-out-for-the-car/Watch-out-for-the-car
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8606
+11418
 Successfully changed project path to: C:/Users/조성택/Documents/GitHub/Watch-out-for-the-car/Watch-out-for-the-car
 C:/Users/조성택/Documents/GitHub/Watch-out-for-the-car/Watch-out-for-the-car
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/조성택/Documents/GitHub/Watch-out-for-the-car/Watch-out-for-the-car
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 193.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,78 +63,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011585 seconds.
+Registered in 0.156450 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
+- Completed reload, in  4.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (621ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (4630ms)
+		BeginReloadAssembly (3373ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (420ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (3374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (457ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (249ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010082 seconds.
+Registered in 1.061861 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\조성택\Documents\GitHub\Watch-out-for-the-car\Watch-out-for-the-car\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\조성택\Documents\GitHub\Watch-out-for-the-car\Watch-out-for-the-car\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  4.699 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (4700ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (741ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (4420ms)
+			LoadAssemblies (2527ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (662ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (753ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (114.2 KB). Loaded Objects now: 3841.
-Memory consumption went from 118.6 MB to 118.5 MB.
-Total: 4.331900 ms (FindLiveObjects: 0.399900 ms CreateObjectMapping: 0.107200 ms MarkObjects: 3.618000 ms  DeleteObjects: 0.205500 ms)
+Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3842.
+Memory consumption went from 118.9 MB to 118.7 MB.
+Total: 3.389600 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.636300 ms  DeleteObjects: 0.269400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,13 +162,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 257269.239158 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx
-  artifactKey: Guid(34f30712d30697648b80843f9e09934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx using Guid(34f30712d30697648b80843f9e09934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8010c36c1a8b847b6765950dd826c8f') in 0.499283 seconds 
+  Time since last request: 381627.381241 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Materials/Cross Roads.mat
+  artifactKey: Guid(d6f1f8e2cbfbf75409f887d8a757bf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Materials/Cross Roads.mat using Guid(d6f1f8e2cbfbf75409f887d8a757bf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4375a84561ef9f966ab230689eed16c') in 0.247780 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.604377 seconds.
-  path: Assets/Quirky Series - Birds Bundle/_Scripts/DemoController.prefab
-  artifactKey: Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series - Birds Bundle/_Scripts/DemoController.prefab using Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885988542747f28371665e8ad0dc5d62') in 0.029702 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Materials/Water.mat
+  artifactKey: Guid(fe7407eebb74a7249a57dbf2d462c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Materials/Water.mat using Guid(fe7407eebb74a7249a57dbf2d462c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837b7ed318c9761efc9f38e8a26ad183') in 0.024927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17165.062840 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Grass 01.FBX
+  artifactKey: Guid(5e5039c2c06c83a4580462bd5c92b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Grass 01.FBX using Guid(5e5039c2c06c83a4580462bd5c92b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56127e3a44c92cc4fc2eb63e7079c1ae') in 0.149569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/River 01.FBX
+  artifactKey: Guid(f448acb30646f4946843c9c55a4d6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/River 01.FBX using Guid(f448acb30646f4946843c9c55a4d6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c3fdf3e086d7868457ca0b61f622a7') in 0.045950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Pavement 01.FBX
+  artifactKey: Guid(edc90d3edbfd719499aa6a73ca5634db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Pavement 01.FBX using Guid(edc90d3edbfd719499aa6a73ca5634db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ee33dd931361b9598605e929f9f98b') in 0.040443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Road 02.FBX
+  artifactKey: Guid(209a9b38f73faa5449dff9a9842e0675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Road 02.FBX using Guid(209a9b38f73faa5449dff9a9842e0675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d951be674c77dbce682f94637229ca') in 0.033703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Tree 01.FBX
+  artifactKey: Guid(d88f9721f27e3574ebde5e4e6a9445d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Tree 01.FBX using Guid(d88f9721f27e3574ebde5e4e6a9445d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12615d25dfce1bf2f99d80ed783d1cc6') in 0.028350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Road 01.FBX
+  artifactKey: Guid(fd47845948dfe154e834b0157a30c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/FBX/Road 01.FBX using Guid(fd47845948dfe154e834b0157a30c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f96df78bf249684a577ab9a588c831') in 0.029049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.721064 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Grass 01.prefab
+  artifactKey: Guid(1534b282dd30225468970761b4d95c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Grass 01.prefab using Guid(1534b282dd30225468970761b4d95c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4449c5c75399ffd7ac8ce00379e1ea2e') in 0.025950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Pavement 01.prefab
+  artifactKey: Guid(0a4826ceac178804b82101f1d354cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Pavement 01.prefab using Guid(0a4826ceac178804b82101f1d354cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fba9231d345f85c1034d7bc53a55963') in 0.017083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/River 01.prefab
+  artifactKey: Guid(ade9b812c6f179840bf209be0421b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/River 01.prefab using Guid(ade9b812c6f179840bf209be0421b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a892f7ce27c1c01308f33d1208b804fd') in 0.039376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Road 02.prefab
+  artifactKey: Guid(24478cbebe7d7774ca9f82158f97d454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Road 02.prefab using Guid(24478cbebe7d7774ca9f82158f97d454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeef49218205d835063a09d4c347672') in 0.019949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Tree 01.prefab
+  artifactKey: Guid(a4892b7c79196cc43885f89cd881ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Tree 01.prefab using Guid(a4892b7c79196cc43885f89cd881ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfc6fe0155fe37119a933547c796e4b') in 0.014482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Road 01.prefab
+  artifactKey: Guid(8bbe4b9ca22bd3c40a6dbdfb22688306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Prefabs/Road 01.prefab using Guid(8bbe4b9ca22bd3c40a6dbdfb22688306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd097186a095e98a91dc8d59444542478') in 0.014077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.212955 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Textures/Cross Roads.psd
+  artifactKey: Guid(0fec413fb4e8043439e5cb5aa66a7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Textures/Cross Roads.psd using Guid(0fec413fb4e8043439e5cb5aa66a7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72530e1ca55d8bda1cba624f20b36166') in 0.032618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Meshtint Free City Lite Pack Mega Toon/Textures/Water.psd
+  artifactKey: Guid(b5f18273d374e154f9b233dd5dbbfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free City Lite Pack Mega Toon/Textures/Water.psd using Guid(b5f18273d374e154f9b233dd5dbbfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5d7e84a855c5c4d2bf44b175b781d') in 0.015291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.318762 seconds.
+  path: Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD0.fbx
+  artifactKey: Guid(5d1cd35570dc600419da732416cfb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD0.fbx using Guid(5d1cd35570dc600419da732416cfb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96988293231fd1f5f58ccc172b97b73b') in 0.066020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx
+  artifactKey: Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx using Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b32a5e2ad4f8e98ca03ac10f37d6a1') in 0.027097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx
+  artifactKey: Guid(5d65f55b81ed9e94d9c9a41ecae53f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx using Guid(5d65f55b81ed9e94d9c9a41ecae53f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b22a6f57ea7c5da06f4d84cacde5d') in 0.027450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx
+  artifactKey: Guid(ccffdb6a86a472147a9d638ebe9fcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx using Guid(ccffdb6a86a472147a9d638ebe9fcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aae0da521a490800711ea4c9ee4605') in 0.026322 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008549 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\조성택\Documents\GitHub\Watch-out-for-the-car\Watch-out-for-the-car\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\조성택\Documents\GitHub\Watch-out-for-the-car\Watch-out-for-the-car\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3892.
+Memory consumption went from 136.0 MB to 135.9 MB.
+Total: 3.251600 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.630300 ms  DeleteObjects: 0.113700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
