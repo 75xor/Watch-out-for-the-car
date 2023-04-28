@@ -352,7 +352,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/BuildOuterWalls.cs"
+"Assets/bulletmove.cs"
+"Assets/carMove.cs"
+"Assets/clickboom.cs"
+"Assets/ExplorCube.cs"
+"Assets/PlayerController.cs"
 "Assets/Quirky Series - Birds Bundle/_Scripts/Demo.cs"
+"Assets/Rotating.cs"
+"Assets/sunriseing.cs"
 -langversion:9.0
 
 /deterministic

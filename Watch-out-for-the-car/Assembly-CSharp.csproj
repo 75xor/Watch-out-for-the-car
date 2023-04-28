@@ -57,6 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Quirky Series - Birds Bundle\_Scripts\Demo.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\ExplorCube.cs" />
+    <Compile Include="Assets\clickboom.cs" />
+    <Compile Include="Assets\BuildOuterWalls.cs" />
+    <Compile Include="Assets\carMove.cs" />
+    <Compile Include="Assets\bulletmove.cs" />
+    <Compile Include="Assets\Rotating.cs" />
+    <Compile Include="Assets\sunriseing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Quirky Series - Birds Bundle\_Shader\SoftSurface.shader" />
