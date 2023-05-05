@@ -8,15 +8,15 @@ public class BuildOuterWalls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for(int x=-5; x <= 5; x++)
+        for(float x=-5.5f; x <= 5.5f; x+=0.5f)
         {
-            GameObject blockobject = GameObject.Instantiate<GameObject>(block, new Vector3(x, 1.5f ,- 5), Quaternion.identity);
+            GameObject blockobject = GameObject.Instantiate<GameObject>(block, new Vector3(x, 3f ,- 5.5f), Quaternion.identity);
             blockobject.transform.SetParent(transform,false);
-            blockobject = GameObject.Instantiate<GameObject>(block, new Vector3(x, 1.5f, 5), Quaternion.identity);
+            blockobject = GameObject.Instantiate<GameObject>(block, new Vector3(x, 3f, 5.5f), Quaternion.identity);
             blockobject.transform.SetParent(transform,false);
         }
+   
 
-        
     }
 
     // Update is called once per frame

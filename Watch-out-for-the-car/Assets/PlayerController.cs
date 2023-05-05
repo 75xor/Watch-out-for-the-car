@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float movespeed = 2.0f;
-    [SerializeField] private float turnspeed = 30.0f;
+    [SerializeField] private float movespeed = 5.0f;
+    [SerializeField] private float turnspeed = 60.0f;
 
     new Rigidbody rigidbody;
-    public bool userPysics = false;
+    public bool UPysics = false;
     public float moveforce = 300.0f;
 
     public GameObject bulletprefab;
@@ -21,14 +21,10 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
+   
     void Update()
     {
         offset = Vector3.zero;
-
-        if (Input.GetKeyDown(KeyCode.RightArrow)) offset += Vector3.right * Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) offset += Vector3.left * Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.UpArrow)) offset += Vector3.up * Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.DownArrow)) offset += Vector3.down * Time.deltaTime;
   
 
         if (Input.GetKey(KeyCode.D)) offset += transform.right * Time.deltaTime * movespeed;
@@ -38,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Q)) transform.Rotate(Vector3.down * turnspeed * Time.deltaTime);
         if (Input.GetKey(KeyCode.E)) transform.Rotate(Vector3.up * turnspeed * Time.deltaTime);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject bullet = GameObject.Instantiate<GameObject>(bulletprefab, transform.position, transform.rotation);
@@ -45,19 +42,16 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R)) transform.eulerAngles += new Vector3(0, 45.0f, 0);
 
-        float herizontal = Input.GetAxis("Mouse X");
-        transform.Rotate((herizontal * turnspeed * 0.3f) * Vector3.up);
 
-        if (!userPysics) transform.position += offset;
-    }
 
-    void OnMouseDown()
-    {
-        print("mouse down");
+        if (!UPysics) transform.position += offset;
     }
-    void FixedUpdate()
+    void OnCollisionEnter(Collision collision)
     {
-        if (userPysics) rigidbody.AddForce(offset * movespeed);
+        if (collision.collider.tag == "wall")
+        {
+            rigidbody.velocity = Vector3.zero;
+        }
     }
 }
 
